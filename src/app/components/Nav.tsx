@@ -41,6 +41,12 @@ export default function Nav() {
             >
               View Lineup
             </Link>
+            <Link
+              href="/match"
+              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${isActive('/match')}`}
+            >
+              Match Lineup
+            </Link>
           </div>
           <div className="sm:hidden flex space-x-1">
             <Link
@@ -60,6 +66,12 @@ export default function Nav() {
               className={`p-2 rounded-lg text-sm transition-all duration-300 ${isActive('/lineup')}`}
             >
               Lineup
+            </Link>
+            <Link
+              href="/match"
+              className={`p-2 rounded-lg text-sm transition-all duration-300 ${isActive('/match')}`}
+            >
+              Match
             </Link>
           </div>
         </div>
