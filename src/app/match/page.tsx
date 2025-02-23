@@ -44,48 +44,48 @@ export default function MatchLineup() {
       name: '4-4-2',
       positions: [
         { id: 'gk', name: 'Goalkeeper', x: 10, y: 50 },
-        { id: 'rb', name: 'Right Back', x: 20, y: 20 },
-        { id: 'cb1', name: 'Center Back', x: 20, y: 35 },
-        { id: 'cb2', name: 'Center Back', x: 20, y: 65 },
-        { id: 'lb', name: 'Left Back', x: 20, y: 80 },
-        { id: 'rm', name: 'Right Mid', x: 30, y: 20 },
-        { id: 'cm1', name: 'Center Mid', x: 30, y: 35 },
-        { id: 'cm2', name: 'Center Mid', x: 30, y: 65 },
-        { id: 'lm', name: 'Left Mid', x: 30, y: 80 },
-        { id: 'st1', name: 'Striker', x: 40, y: 35 },
-        { id: 'st2', name: 'Striker', x: 40, y: 65 }
+        { id: 'rb', name: 'Right Back', x: 15, y: 10 },
+        { id: 'cb1', name: 'Center Back', x: 15, y: 30 },
+        { id: 'cb2', name: 'Center Back', x: 15, y: 70 },
+        { id: 'lb', name: 'Left Back', x: 15, y: 90 },
+        { id: 'rm', name: 'Right Mid', x: 25, y: 10 },
+        { id: 'cm1', name: 'Center Mid', x: 25, y: 35 },
+        { id: 'cm2', name: 'Center Mid', x: 25, y: 65 },
+        { id: 'lm', name: 'Left Mid', x: 25, y: 90 },
+        { id: 'st1', name: 'Striker', x: 35, y: 30 },
+        { id: 'st2', name: 'Striker', x: 35, y: 70 }
       ]
     },
     '4-3-3': {
       name: '4-3-3',
       positions: [
         { id: 'gk', name: 'Goalkeeper', x: 10, y: 50 },
-        { id: 'rb', name: 'Right Back', x: 20, y: 20 },
-        { id: 'cb1', name: 'Center Back', x: 20, y: 40 },
-        { id: 'cb2', name: 'Center Back', x: 20, y: 60 },
-        { id: 'lb', name: 'Left Back', x: 20, y: 80 },
-        { id: 'dm', name: 'Defensive Mid', x: 30, y: 50 },
-        { id: 'cm1', name: 'Center Mid', x: 35, y: 30 },
-        { id: 'cm2', name: 'Center Mid', x: 35, y: 70 },
-        { id: 'rw', name: 'Right Wing', x: 40, y: 20 },
-        { id: 'st', name: 'Striker', x: 40, y: 50 },
-        { id: 'lw', name: 'Left Wing', x: 40, y: 80 }
+        { id: 'rb', name: 'Right Back', x: 15, y: 10 },
+        { id: 'cb1', name: 'Center Back', x: 15, y: 35 },
+        { id: 'cb2', name: 'Center Back', x: 15, y: 65 },
+        { id: 'lb', name: 'Left Back', x: 15, y: 90 },
+        { id: 'dm', name: 'Defensive Mid', x: 25, y: 50 },
+        { id: 'cm1', name: 'Center Mid', x: 30, y: 20 },
+        { id: 'cm2', name: 'Center Mid', x: 30, y: 80 },
+        { id: 'rw', name: 'Right Wing', x: 35, y: 10 },
+        { id: 'st', name: 'Striker', x: 35, y: 50 },
+        { id: 'lw', name: 'Left Wing', x: 35, y: 90 }
       ]
     },
     '4-2-3-1': {
       name: '4-2-3-1',
       positions: [
         { id: 'gk', name: 'Goalkeeper', x: 10, y: 50 },
-        { id: 'rb', name: 'Right Back', x: 20, y: 20 },
-        { id: 'cb1', name: 'Center Back', x: 20, y: 35 },
-        { id: 'cb2', name: 'Center Back', x: 20, y: 65 },
-        { id: 'lb', name: 'Left Back', x: 20, y: 80 },
-        { id: 'dm1', name: 'Defensive Mid', x: 30, y: 30 },
-        { id: 'dm2', name: 'Defensive Mid', x: 30, y: 70 },
-        { id: 'ram', name: 'Right Attack Mid', x: 35, y: 25 },
-        { id: 'cam', name: 'Center Attack Mid', x: 35, y: 50 },
-        { id: 'lam', name: 'Left Attack Mid', x: 35, y: 75 },
-        { id: 'st', name: 'Striker', x: 40, y: 50 }
+        { id: 'rb', name: 'Right Back', x: 15, y: 10 },
+        { id: 'cb1', name: 'Center Back', x: 15, y: 35 },
+        { id: 'cb2', name: 'Center Back', x: 15, y: 65 },
+        { id: 'lb', name: 'Left Back', x: 15, y: 90 },
+        { id: 'dm1', name: 'Defensive Mid', x: 25, y: 30 },
+        { id: 'dm2', name: 'Defensive Mid', x: 25, y: 70 },
+        { id: 'ram', name: 'Right Attack Mid', x: 30, y: 15 },
+        { id: 'cam', name: 'Center Attack Mid', x: 30, y: 50 },
+        { id: 'lam', name: 'Left Attack Mid', x: 30, y: 85 },
+        { id: 'st', name: 'Striker', x: 35, y: 50 }
       ]
     }
   };
